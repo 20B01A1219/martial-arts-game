@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martial Arts</title>
+    <style>
+        h2 {
+            color: red;
+            font-family: cursive;
+        }
+        h3 {
+            color: blue;
+            font-family: cursive;
+            margin-left: 100px;
+        }
+        body {
+            background-image: url("images/background.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        button {
+            border: 2px solid red;
+            border-radius: 10px;
+            background-color: aqua;
+            font-size: 16px;
+        }
+
+        button:hover {
+            color: red;
+            background-color: blanchedalmond;
+           
+        }
+    </style>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h2 align="center">Welcome to Martial Arts</h2>
+    <div align="center">
+        <button id="forward">Forward(Up arrow key)</button>&nbsp;
+        <button id="kick">Kick(left arrow key)</button>&nbsp;
+        <button id="punch">punch(right arrow key)</button>&nbsp;
+        <button id="backward">Backward(Down arrow key)</button>&nbsp;
+        <button id ="block">Block(B Or b)</button>
+    </div>
+    <br><br><br><br><br><br><br>
+    <h3>Player 1</h3>
+    <canvas id="mycanvas" width="500px" height="500px"></canvas>
+
+</body>
+
+</html>
